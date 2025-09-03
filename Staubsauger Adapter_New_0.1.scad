@@ -10,7 +10,7 @@
 $fn = $preview ? 64 : 128;
 
 /* [Düsentyp] */
-//Was soll erzeugt werden? Moegliche Werte: "adapter", "fugen_duese", "flach_duese", "buerste"
+//Was soll erzeugt werden? Moegliche Werte: "adapter", "fugen_duese", "flach_duese"
 aufsatz_typ = "flach_duese";
 
 //Global Params
@@ -78,7 +78,6 @@ module adapter(d_in_s, d_out_e, l_s,l_e, w){
     difference(){
         adapter_base(d_in_s+2*w, d_out_e, l_s,l_e, w);
         translate([0,0,-cut_margin-w]) adapter_base(d_in_s, d_out_e-2*w, l_s,l_e+20);
-        //cube([50,50,50]); //Innenansicht
     }
 }
 
