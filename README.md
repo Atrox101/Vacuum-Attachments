@@ -7,7 +7,6 @@ Alle Maße sind parametrisierbar.
 - **Adapter:** verbindet unterschiedliche Rohrdurchmesser
 - **Fugendüse:** Länge, Wandstärke, Endwinkel parametrisierbar
 - **Flachdüse:** Breite, Länge, Winkel einstellbar
-- **Bürste:** runder Grundkörper (ohne Borsten)
 
 ## Verwendung
 1. OpenSCAD öffnen
