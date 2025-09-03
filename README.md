@@ -1,6 +1,6 @@
 # Parametrische Staubsauger-Aufsätze (OpenSCAD)
 
-OpenSCAD-Module für Staubsauger-Aufsätze (Adapter, Fugendüse, Flachdüse, Bürste).  
+OpenSCAD-Module für Staubsauger-Aufsätze (Adapter, Fugendüse, Flachdüse).  
 Alle Maße sind parametrisierbar.
 
 ## Features
@@ -13,7 +13,7 @@ Alle Maße sind parametrisierbar.
 2. `src/attachments.scad` laden
 3. Oben den gewünschten Aufsatz wählen:
    ```scad
-   aufsatz_typ = "fugen_duese"; // "adapter", "flach_duese", "buerste"
+   aufsatz_typ = "fugen_duese"; // "adapter", "flach_duese"
    ```
 4. Parameter anpassen (Durchmesser, Länge, Wandstärke, Winkel)
 5. Rendern (`F6`) und als STL exportieren
